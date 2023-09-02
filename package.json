@@ -5,10 +5,22 @@
   "main": "index.js",
   "devDependencies": {
     "@types/node": "^20.5.8",
-    "protocol-buffers": "^5.0.0"
+    "easy_sock": "^0.4.1",
+    "koa": "^2.14.2",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "memory-fs": "^0.5.0",
+    "mkdirp": "^3.0.1",
+    "protocol-buffers": "^5.0.0",
+    "request": "^2.88.2",
+    "text-loader": "^0.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "backup": "node ./backend/start.js"
+    "backup": "node ./backend/start.js",
+    "client": "node ./server/start.js",
+    "build": "node ./workspace/index.js"
   },
   "repository": {
     "type": "git",
