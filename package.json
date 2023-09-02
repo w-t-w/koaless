@@ -1,0 +1,29 @@
+{
+  "name": "koaless",
+  "version": "0.0.1",
+  "description": "koaless mock",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.5.8",
+    "protocol-buffers": "^5.0.0"
+  },
+  "scripts": {
+    "backup": "node ./backend/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w-t-w/koaless.git"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "mock",
+    "constructor"
+  ],
+  "author": "wtw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w-t-w/koaless/issues"
+  },
+  "homepage": "https://github.com/w-t-w/koaless#readme"
+}
